@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import tw from "tailwind-styled-components";
-import Card from "./components/card/index";
+import Card from "./components/cards/training/index";
 
 const App = () => {
   return (
