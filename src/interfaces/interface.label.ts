@@ -1,5 +1,5 @@
-import IdLabel from "../types/type.label";
+import ForLabel from "../types/type.label";
 
 export default interface InterfaceLabel {
-  for?: IdLabel;
+  For?: ForLabel;
 }

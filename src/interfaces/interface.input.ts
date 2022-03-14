@@ -13,17 +13,17 @@ import {
 } from "../types/type.input";
 
 interface InterfaceInput {
-  type: TypeInput;
-  id?: IdInput;
-  name?: NameInput;
-  placeholder?: PlaceholderInput;
-  maxLength?: MaxLengthInput;
-  value?: ValueInput;
-  title?: TitleInput;
-  checked?: CheckedInput;
-  step?: StepInput;
-  min?: MinInput;
-  max?: MaxInput;
+  Type: TypeInput;
+  Id?: IdInput;
+  Name?: NameInput;
+  Placeholder?: PlaceholderInput;
+  MaxLength?: MaxLengthInput;
+  Value?: ValueInput;
+  Title?: TitleInput;
+  Checked?: CheckedInput;
+  Step?: StepInput;
+  Min?: MinInput;
+  Max?: MaxInput;
 }
 
 export default InterfaceInput;
