@@ -1,5 +1,6 @@
 import React from "react";
 import tw from "tailwind-styled-components";
+import TrainingLabel from "../../labels/training/styled.label";
 
 const Card = () => {
   return (
@@ -8,9 +9,9 @@ const Card = () => {
         <Thumbnail src="https://rocketlib.netlify.app/assets/img/DFH_Stadium_arena_preview.png" />
       </Header>
       <Content>
-        <Title>Title</Title>
-        <Subtitle>Subtitle</Subtitle>
-        <Text>Text</Text>
+        <Title>Hall of Rockets #1</Title>
+        <Subtitle>Hexzi</Subtitle>
+        <TrainingLabel>Hehe</TrainingLabel>
       </Content>
       <Footer></Footer>
     </Body>
@@ -60,17 +61,15 @@ const Footer = tw.div`
   px-6
 `;
 
-const Title = tw.h5`
+const Title = tw.h4`
   mt-1
+  text-xl
   leading-none
   font-medium
 `;
 
 const Subtitle = tw.h6`
   mb-3
+  text-sm
   text-slate-600
-`;
-
-const Text = tw.p`
-  my-1
 `;
